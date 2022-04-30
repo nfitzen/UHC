@@ -1,0 +1,31 @@
+require:
+    - mecha.contrib.nesting
+    - mecha.contrib.implicit_execute
+
+data_pack:
+    load: ["src"]
+    render:
+        functions:
+            - "uhc:*"
+
+pipeline:
+    - mecha
+    - beet.contrib.copy_files
+
+output: "out"
+
+meta:
+    copy_files:
+        data_pack:
+            ".":
+                - "README.md"
+                - "COPYING"
+                - "LICENSES/"
+    mecha:
+        multiline: true
+
+    uuid:
+        uhc:
+            spawn_entity:
+                hex: "5f42197d-8d56-4ce7-ad09-f45e41a4391d"
+                data: "[I;1598167421,-1923724057,-1391856546,1101281565]"

@@ -1,9 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Datapack Template
-Upstream-Contact: Nathaniel Fitzenrider <https://github.com/nfitzen>
-Source: https://github.com/nfitzen/datapack-template
-License: CC0-1.0 AND MIT
-Comment: Make sure to check this file & update copyrights!
+Upstream-Name: UHC
+Upstream-Contact: nfitzen <https://github.com/nfitzen>
+Source: https://github.com/nfitzen/UHC
+License: GPL-3.0-or-later WITH GPL-3.0-linking-exception AND MIT
 
 # Sample paragraph, commented out:
 #
@@ -13,15 +12,16 @@ Comment: Make sure to check this file & update copyrights!
 
 # Blanket copyright just in case JSON files exist.
 # Scroll past the libraries section to apply exceptions to them.
-Files: data/*
-Copyright: $YEAR $NAME <$CONTACT>
-License: MIT
+Files: src/*
+Copyright: (C) 2019, 2022 nfitzen <https://github.com/nfitzen>
+License: GPL-3.0-or-later WITH GPL-3.0-linking-exception
+Comment: See the README for the full exception.
 
 # Add items to `Copyright` depending on your reused code/libs
-Files: data/minecraft/tags/functions/*
-Copyright: $YEAR $NAME <$CONTACT>
-License: MIT
-Comment: shared files between datapacks
+# Files: data/minecraft/tags/functions/*.json
+# Copyright: (C) 2022 nfitzen <https://github.com/nfitzen>
+# License: Apache-2.0
+# Comment: shared files between datapacks
 
 # Libraries, bundled and unbundled
 # Add your own copyright if using function tags from any of these.
@@ -30,7 +30,7 @@ Comment: shared files between datapacks
 # Lantern
 
 # Individual Load files go in individual .license files
-Files: data/load/*
+Files: src/data/load/*
 Copyright: 2019 Lantern Contributors
 License: MIT
 
@@ -45,17 +45,17 @@ License: MIT
 # Lantern Load
 
 # Comment out if not using Lantern Load directly
-Files: data/load/*
+Files: src/data/load/*
 Copyright: 2020 Lue
 License: 0BSD
 
 # AESTD
 
-Files: libs/AESTD/* data/aestd*/*
+Files: libs/AESTD/* src/data/aestd*/*
 Copyright: 2021 Ael
 License: 0BSD
 
-Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+Files: src/data/minecraft/loot_tables/blocks/yellow_shulker_box.json
 Copyright: 2021 Ael
 License: 0BSD
 Comment: Doesn't apply if using Lantern; comment out/delete if so.
@@ -66,6 +66,6 @@ Files: libs/MinecraftPhi-modules/*
 Copyright: 2018 Phi contributors
 License: MIT
 
-Files: data/phi.*/*
+Files: src/data/phi.*/*
 Copyright: 2018 Phi contributors
 License: MIT

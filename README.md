@@ -1,23 +1,38 @@
-<!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- SPDX-FileCopyrightText: 2020-2022 nfitzen <https://github.com/nfitzen> -->
+<!-- SPDX-License-Identifier: FSFAP -->
+<!-- SPDX-FileCopyrightText: (C) 2022 nfitzen <https://github.com/nfitzen> -->
 
-# Datapack Template
+# UHC
 
-## Instructions for use
+A UHC pack, coming soon&trade;.
 
-- Replace this file with [README.tmpl.md](README.tmpl.md)
-- Edit the [dep5 file](.reuse/dep5) and replace and add copyright as necessary.
-    - Hopefully, it should be drag-and-drop (since dep5 doesn't apply if the
-    file doesn't exist), unless you're using Lantern.
-- See the [REUSE initiative](//reuse.software/) for more information on
-    .license files etc.
+## Build
+
+Requires [beet](https://github.com/mcbeet/beet)
+and [mecha](https://github.com/mcbeet/mecha), since I use special syntax.
 
 ## Copyright
 
-This template is marked with [CC0 1.0](LICENSE),
-with the exception of a portion of the [.gitignore](.gitignore) file,
-which is licensed under the [Expat/MIT License](LICENSES/MIT.txt) and [CC0 1.0].
+Copyright (C) 2019, 2022 [nfitzen](https://github.com/nfitzen)
 
-See individual files for more information.
+This datapack is licensed under
+`GPL-3.0-or-later WITH GPL-3.0-linking-exception`.
+That is, the GNU General Public License, either version 3, or (at your option)
+any later version, with the following exception in particular:
 
-[CC0 1.0]: https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Universal"
+> Additional permission under GNU GPL version 3 section 7
+> 
+> If you modify this Program, or any covered work, by linking or combining it with Minecraft: Java Edition (or a modified version of that library), containing parts covered by the terms of the Minecraft EULA, the licensors of this Program grant you additional permission to convey the resulting work.
+
+More copyright and licensing information can be found in individual files
+and in [the dep5 file](.reuse/dep5) if an SPDX header isn't found.
+This project is [REUSE-compliant](https://reuse.software/).
+If you're viewing this in object code form (as a datapack), you should be
+able to find a copy of the source code at <https://github.com/nfitzen/UHC>.
+
+### README Copyright
+
+Copyright (C) 2022 [nfitzen](https://github.com/nfitzen)
+
+Copying and distribution of this file, with or without modification, are
+permitted in any medium without royalty provided the copyright notice and this
+notice are preserved.  This file is offered as-is, without any warranty.

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "uhc:player_killed",
+                    "weight": 99,
+                    "quality": 0
+                },
+                {
+                    "type": "loot_table",
+                    "name": "meme:benshapiro",
+                    "weight": 1,
+                    "quality": 20
+                }
+            ]
+        }
+    ]
+}

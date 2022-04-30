@@ -5,8 +5,8 @@
 
 # Build-related stuff
 
-/.build/
-/releases/
+/out/
+.beet_cache/
 
 # AESTD (comment if bundling)
 
