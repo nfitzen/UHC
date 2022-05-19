@@ -1,108 +1,20 @@
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2020 nfitzen <https://github.com/nfitzen>
-# SPDX-License-Identifier: MIT
-# SPDX-FileCopyrightText: Copyright (c) 2017 Version Control System Fund
+# SPDX-FileCopyrightText: 2022 nfitzen <https://github.com/nfitzen>
 
-# Build-related stuff
-
-/out/
+out/
 .beet_cache/
 
-# AESTD (comment if bundling)
+.vscode/
+*.code_workspace
 
-data/aestd.*/
+# GNU
 
-data/aestd1/*
-!data/aestd1/tags/
-data/aestd1/tags/*
-!data/aestd1/tags/functions/
-
-# AESTD or Lantern (again, comment if bundling within src)
-
-data/minecraft/loot_tables/blocks/yellow_shulker_box.json
-
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,macos,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,windows,macos,linux
-
-### GNU/Linux ###
-*~
-
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
-
-# KDE directory preferences
-.directory
-
-# GNU/Linux trash folder which might appear on any partition or disk
 .Trash-*
 
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
+# macOS
 
-### macOS ###
-# General
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Icon must end with two \r
-Icon
+# Python
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,macos,linux
+__pycache__/
